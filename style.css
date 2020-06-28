@@ -40,6 +40,7 @@ p{
     font-size: 40px;
     color: #fff;
     padding-top: 30px;
+    cursor: pointer;
 }
 #header nav{
     float: right;
@@ -212,6 +213,7 @@ p{
     font-size: 40px;
     font-weight: bold;
     color: #292929;
+    cursor: pointer;
 }
 #footer p{
     font-size: 13px;
