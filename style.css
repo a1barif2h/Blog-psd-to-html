@@ -219,7 +219,31 @@ p{
     font-size: 13px;
     color: #a6a6a6;
 }
-#footer .social_icon ul{
+#footer .social-link {
+    margin-top: 25px;
+}
+#footer .social-link ul li {
+    display: inline-block;
+    margin: 10px;
+}
+#footer .social-link ul li a {
+    color: #fff;
+}
+#footer .social-link ul li a:link i::before {
+    background: #bdd1df;
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: .5s;
+}
+#footer .social-link ul li a:hover i::before {
+    background: #393939;
+    transform: rotate(360deg);
+}
+/* #footer .social_icon ul{
     list-style: none;
 }
 #footer .social_icon ul li{
@@ -278,5 +302,5 @@ p{
 }
 #footer .social_icon ul li a{
     font-size: 40px;
-}
+} */
 /*END FOOTER SECTION */
